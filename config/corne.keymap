@@ -17,6 +17,8 @@
         keymap {
                 compatible = "zmk,keymap";
 
+                default_layer {
+// -----------------------------------------------------------------------------------------
 // |  TAB |  W  |  L  |  Y  |  P  |  B  |   |  Z  |  F  |  O   |  U  |  '  | BKSP |
 // | CTRL |  C  |  R  |  S  |  T  |  G  |   |  M  |  N  |  E   |  I  |  A  |  '   |
 // | SHFT |  Q  |  J  |  V  |  D  |  K  |   |  X  |  H  |  /   |  ,  |  .  | ESC  |
