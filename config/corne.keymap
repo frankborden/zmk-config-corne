@@ -10,25 +10,24 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip {
-    chain-length = <27>;
+  chain-length = <27>;
 };
 
 / {
-        keymap {
-                compatible = "zmk,keymap";
+  chosen {
+    zmk,matrix-transform=&five_column_transform;
+  };
 
-                default_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  W  |  L  |  Y  |  P  |  B  |   |  Z  |  F  |  O   |  U  |  '  | BKSP |
-// | CTRL |  C  |  R  |  S  |  T  |  G  |   |  M  |  N  |  E   |  I  |  A  |  '   |
-// | SHFT |  Q  |  J  |  V  |  D  |  K  |   |  X  |  H  |  /   |  ,  |  .  | ESC  |
-//                    | TAB | SPC | SPC |   | ENT | ENT | BKSP |
-                        bindings = <
-   &kp TAB   &kp W &kp L &kp Y &kp P &kp B   &kp Z &kp F  &kp O     &kp U   &kp SQT  &kp BSPC
-   &kp LCTRL &kp C &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp A    &kp SQT
-   &kp LSHFT &kp Q &kp J &kp V &kp D &kp K   &kp X &kp H  &kp FSLH &kp COMMA &kp DOT &kp ESC
-                  &kp TAB &kp SPACE &bt BT_CLR   &bt BT_NXT &kp RET &kp BSPC
-                        >;
-                };
-        };
+  keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+      bindings = <
+        &kp W &kp L &kp Y   &kp P     &kp B      &kp Z      &kp F   &kp O    &kp U     &kp SQT
+        &kp C &kp R &kp S   &kp T     &kp G      &kp M      &kp N   &kp E    &kp I     &kp A 
+        &kp Q &kp J &kp V   &kp D     &kp K      &kp X      &kp H   &kp FSLH &kp COMMA &kp DOT
+                            &kp TAB &kp SPACE &bt BT_CLR &bt BT_NXT &kp RET &kp BSPC
+      >;
+    };
+  };
 };
