@@ -26,7 +26,7 @@
 
     symbol_layer {
       bindings = <
-        &kp ESC        &trans         &trans          &trans         &trans    &trans   &kp LBRC       &kp RBRC       &trans        &kp SEMI
+        &kp ESC        &trans         &trans          &trans         &trans    &trans   &kp LBRC       &kp RBRC       &trans        &kp GRAVE
         &mt LCMD EQUAL &mt LALT UNDER &mt LSHFT MINUS &mt LCTRL PLUS &trans    &trans   &mt LCTRL LPAR &mt LSHFT RPAR &mt LALT LBKT &mt LCMD RBKT
         &trans         &trans         &trans          &trans         &trans    &trans   &trans         &trans         &trans        &trans
                                       &trans          &trans         &kp LSHFT &kp LCMD &trans         &trans
@@ -35,10 +35,10 @@
 
     nav_and_num_layer {
       bindings = <
-        &kp ESC  &kp N7      &kp N8       &kp N9       &trans    &kp LC(LS(GRAVE)) &kp LG(GRAVE)  &kp LG(LS(GRAVE)) &kp LC(GRAVE)  &kp SEMI
-        &mo LCMD &mt LALT N4 &mt LSHFT N5 &mt LCTRL N6 &trans    &kp LEFT          &mt LCTRL DOWN &mt LSHFT UP      &mt LALT RIGHT &mo LCMD
-        &kp N0   &kp N1      &kp N2       &kp N3       &trans    &trans            &trans         &trans            &trans         &trans
-                             &trans       &trans       &kp LSHFT &kp LCMD          &trans         &trans
+        &kp ESC  &kp N7      &kp N8       &kp N9       &trans    &kp LC(LS(TAB)) &kp LG(GRAVE)  &kp LG(LS(GRAVE)) &kp LC(TAB)    &kp SEMI
+        &mo LCMD &mt LALT N4 &mt LSHFT N5 &mt LCTRL N6 &trans    &kp LEFT        &mt LCTRL DOWN &mt LSHFT UP      &mt LALT RIGHT &mo LCMD
+        &kp N0   &kp N1      &kp N2       &kp N3       &trans    &trans          &trans         &trans            &trans         &trans
+                             &trans       &trans       &kp LSHFT &kp LCMD        &trans         &trans
       >;
     };
   };
