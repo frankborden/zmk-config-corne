@@ -27,7 +27,7 @@
    &kp TAB   &kp W &kp L &kp Y &kp P &kp B   &kp Z &kp F  &kp O     &kp U   &kp SQT  &kp BSPC
    &kp LCTRL &kp C &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp A    &kp SQT
    &kp LSHFT &kp Q &kp J &kp V &kp D &kp K   &kp X &kp H  &kp FSLH &kp COMMA &kp DOT &kp ESC
-                  &kp TAB &kp SPACE &kp SPACE   &kp RET &kp RET &kp BSPC
+                  &kp TAB &kp SPACE &bt BT_CLR   &bt BT_NXT &kp RET &kp BSPC
                         >;
                 };
         };
