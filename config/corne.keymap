@@ -11,7 +11,7 @@
 
 #define BASE 0
 #define SYM  1
-#define NAV  2
+#define NAVNUM  2
 
 / {
   chosen {
@@ -26,25 +26,25 @@
         &kp W  &kp L  &kp Y    &kp P      &kp B      &kp Z     &kp F    &kp O     &kp U      &kp SQT
         &mt LCMD C &mt LALT R &mt LSHFT S &mt LCTRL T &kp G &kp M &mt LCTRL N &mt LSHFT E &mt LALT I &mt LCMD A 
         &kp Q  &kp J  &kp V    &kp D      &kp K      &kp X     &kp H    &kp FSLH  &kp COMMA  &kp DOT
-                      &kp TAB  &lt SYM SPACE  &kp LSHFT  &kp LCMD  &lt NAV RET  &kp BSPC
+                      &kp TAB  &lt SYM SPACE  &kp LSHFT  &kp LCMD  &lt NAVNUM RET  &kp BSPC
       >;
     };
 
     symbol_layer {
       bindings = <
-        &kp W  &kp L  &kp Y    &kp P      &kp B      &kp Z     &kp F    &kp O     &kp U      &kp SQT
-        &mt LCMD C &mt LALT R &mt LSHFT S &mt LCTRL T &kp G &kp M &mt LCTRL N &mt LSHFT E &mt LALT I &mt LCMD A 
-        &kp Q  &kp J  &kp V    &kp D      &kp K      &kp X     &kp H    &kp FSLH  &kp COMMA  &kp DOT
-                      &kp TAB  &lt SYM SPACE  &kp LSHFT  &kp LCMD  &lt NAV RET  &kp BSPC
+        &trans         &trans         &trans          &trans         &trans    &trans   &kp LBRC       &kp RBRC       &trans        &trans
+        &mt LCMD EQUAL &mt LALT UNDER &mt LSHFT MINUS &mt LCTRL PLUS &trans    &trans   &mt LCTRL LPAR &mt LSHFT RPAR &mt LALT LBKT &mt LCMD RBKT
+        &trans         &trans         &trans          &trans         &trans    &trans   &trans         &trans         &trans        &trans
+                                      &trans          &trans         &kp LSHFT &kp LCMD &trans         &trans
       >;
     };
 
-    navigation_layer {
+    nav_and_num_layer {
       bindings = <
-        &kp W  &kp L  &kp Y    &kp P      &kp B      &kp Z     &kp F    &kp O     &kp U      &kp SQT
-        &mt LCMD C &mt LALT R &mt LSHFT S &mt LCTRL T &kp G &kp M &mt LCTRL N &mt LSHFT E &mt LALT I &mt LCMD A 
-        &kp Q  &kp J  &kp V    &kp D      &kp K      &kp X     &kp H    &kp FSLH  &kp COMMA  &kp DOT
-                      &kp TAB  &lt SYM SPACE  &kp LSHFT  &kp LCMD  &lt NAV RET  &kp BSPC
+        &trans   &kp N7      &kp N8       &kp N9       &trans    &trans   &trans         &trans       &trans         &trans
+        &mo LCMD &mt LALT N4 &mt LSHFT N5 &mt LCTRL N6 &trans    &kp LEFT &mt LCTRL DOWN &mt LSHFT UP &mt LALT RIGHT &mo LCMD
+        &kp N0   &kp N1      &kp N2       &kp N3       &trans    &trans   &trans         &trans       &trans         &trans
+                             &trans       &trans       &kp LSHFT &kp LCMD &trans         &trans
       >;
     };
   };
