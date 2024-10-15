@@ -22,23 +22,23 @@
         &kp W      &kp L      &kp Y       &kp P       &kp B         &kp Z          &kp F       &kp O       &kp U      &kp SQT
         &mt LCMD C &mt LALT R &mt LSHFT S &mt LCTRL T &kp G         &kp M          &mt LCTRL N &mt LSHFT E &mt LALT I &mt LCMD A 
         &kp Q      &kp J      &kp V       &kp D       &kp K         &kp X          &kp H       &kp FSLH    &kp COMMA  &kp DOT
-                              &none       &kp TAB     &lt SYM SPACE &lt NAVNUM RET &kp BSPC    &none
+                              &kp LSHFT   &kp TAB     &lt SYM SPACE &lt NAVNUM RET &kp BSPC    &kp LCMD
       >;
     };
     symbol_layer {
       bindings = <
-        &kp ESC        &trans         &trans          &trans         &trans    &trans   &kp LBRC       &kp RBRC       &trans        &kp GRAVE
-        &mt LCMD EQUAL &mt LALT UNDER &mt LSHFT MINUS &mt LCTRL PLUS &trans    &trans   &mt LCTRL LPAR &mt LSHFT RPAR &mt LALT LBKT &mt LCMD RBKT
-        &trans         &trans         &trans          &trans         &trans    &trans   &trans         &trans         &trans        &bt BT_NXT
-                                      &trans          &trans         &kp LSHFT &kp LCMD &trans         &trans
+        &kp ESC        &trans         &trans          &trans         &trans &trans &kp LBRC       &kp RBRC       &trans        &kp GRAVE
+        &mt LCMD EQUAL &mt LALT UNDER &mt LSHFT MINUS &mt LCTRL PLUS &trans &trans &mt LCTRL LPAR &mt LSHFT RPAR &mt LALT LBKT &mt LCMD RBKT
+        &trans         &trans         &trans          &trans         &trans &trans &trans         &trans         &trans        &bt BT_NXT
+                                      &trans          &trans         &trans &trans &trans         &trans
       >;
     };
     nav_and_num_layer {
       bindings = <
-        &kp ESC  &kp N7      &kp N8       &kp N9       &trans    &kp LC(LS(TAB)) &kp LG(GRAVE)  &kp LG(LS(GRAVE)) &kp LC(TAB)    &kp SEMI
-        &mo LCMD &mt LALT N4 &mt LSHFT N5 &mt LCTRL N6 &trans    &kp LEFT        &mt LCTRL DOWN &mt LSHFT UP      &mt LALT RIGHT &mo LCMD
-        &kp N0   &kp N1      &kp N2       &kp N3       &trans    &trans          &trans         &trans            &trans         &trans
-                             &trans       &trans       &kp LSHFT &kp LCMD        &trans         &trans
+        &kp ESC  &kp N7      &kp N8       &kp N9       &trans &kp LC(LS(TAB)) &kp LG(GRAVE)  &kp LG(LS(GRAVE)) &kp LC(TAB)    &kp SEMI
+        &mo LCMD &mt LALT N4 &mt LSHFT N5 &mt LCTRL N6 &trans &kp LEFT        &mt LCTRL DOWN &mt LSHFT UP      &mt LALT RIGHT &mo LCMD
+        &kp N0   &kp N1      &kp N2       &kp N3       &trans &trans          &trans         &trans            &trans         &trans
+                             &trans       &trans       &trans &trans          &trans         &trans
       >;
     };
   };
