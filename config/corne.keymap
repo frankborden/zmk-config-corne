@@ -19,10 +19,10 @@
     compatible = "zmk,keymap";
     default_layer {
       bindings = <
-        &kp W      &kp L      &kp Y       &kp P       &kp B         &kp Z          &kp F       &kp O       &kp U      &kp SQT
-        &mt LCMD C &mt LALT R &mt LSHFT S &mt LCTRL T &kp G         &kp M          &mt LCTRL N &mt LSHFT E &mt LALT I &mt LCMD A 
-        &kp Q      &kp J      &kp V       &kp D       &kp K         &kp X          &kp H       &kp FSLH    &kp COMMA  &kp DOT
-                              &kp LSHFT   &kp TAB     &lt SYM SPACE &lt NAVNUM RET &kp BSPC    &kp LCMD
+        &kp W      &kp L      &kp Y       &kp P       &kp B     &kp Z   &kp F           &kp O       &kp U      &kp SQT
+        &mt LCMD C &mt LALT R &mt LSHFT S &mt LCTRL T &kp G     &kp M   &mt LCTRL N     &mt LSHFT E &mt LALT I &mt LCMD A 
+        &kp Q      &kp J      &kp V       &kp D       &kp K     &kp X   &kp H           &kp FSLH    &kp COMMA  &kp DOT
+                              &kp LSHFT   &lt SYM TAB &kp SPACE &kp RET &lt NAVNUM BSPC &kp LCMD
       >;
     };
     symbol_layer {
