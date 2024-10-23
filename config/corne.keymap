@@ -26,7 +26,7 @@
             bindings = <
 &kp ESC          &trans          &trans  &trans         &trans          &trans            &kp LBRC       &kp RBRC       &trans  &kp GRAVE  &mt LCMD EQUAL  &mt LALT UNDER
 &mt LSHFT MINUS  &mt LCTRL PLUS  &trans  &trans         &mt LCTRL LPAR  &mt LSHFT RPAR    &mt LALT LBKT  &mt LCMD RBKT  &trans  &trans     &trans          &trans
-&trans           &trans          &trans  &kp BACKSLASH  &trans          &bt BT_NXT        &trans         &trans         &trans  &trans     &trans          &trans
+&trans           &trans          &trans  &kp BACKSLASH  &trans          &bt BT_NXT        &trans         &trans         &trans  &trans     &kp DELETE      &trans
             >;
         };
 
