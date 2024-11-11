@@ -7,13 +7,13 @@
 
 &mt {
     flavor = "tap-preferred";
-    quick-tap-ms = <130>;
-    tapping-term-ms = <130>;
+    quick-tap-ms = <200>;
+    tapping-term-ms = <200>;
 };
 
 &lt {
-    quick-tap-ms = <130>;
-    tapping-term-ms = <130>;
+    quick-tap-ms = <200>;
+    tapping-term-ms = <200>;
 };
 
 / {
@@ -42,7 +42,7 @@
             bindings = <
 &trans           &trans          &trans  &trans  &trans                      &trans                         &trans                 &trans                  &trans  &trans  &mt LCMD EQUAL  &mt LALT UNDERSCORE
 &mt LSHFT MINUS  &mt LCTRL PLUS  &trans  &trans  &mt LCTRL LEFT_PARENTHESIS  &mt LSHFT RIGHT_PARENTHESIS    &mt LALT LEFT_BRACKET  &mt LCMD RIGHT_BRACKET  &trans  &trans  &trans          &trans
-&trans           &trans          &trans  &trans  &trans                      &trans                         &trans                 &trans                  &trans  &trans  &trans          &trans
+&trans           &trans          &trans  &trans  &trans                      &trans                         &trans                 &trans                  &trans  &trans  &kp DELETE      &trans
             >;
         };
     };
