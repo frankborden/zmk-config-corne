@@ -34,7 +34,7 @@
             bindings = <
 &trans        &kp N7              &kp N8  &kp N9          &trans          &kp LC(LS(TAB))       &kp LG(GRAVE)   &kp LG(LS(GRAVE))  &kp LC(TAB)  &trans  &kp LCMD  &mt LALT NUMBER_4
 &mt LSHFT N5  &mt LCTRL NUMBER_6  &trans  &kp LEFT_ARROW  &mt LCTRL DOWN  &mt LSHFT UP_ARROW    &mt LALT RIGHT  &kp LCMD           &kp N0       &kp N1  &kp N2    &kp N3
-&trans        &trans              &trans  &trans          &trans          &trans                &trans          &trans             &trans       &trans  &trans    &trans
+&trans        &trans              &trans  &trans          &trans          &studio_unlock                &trans          &trans             &trans       &trans  &trans    &trans
             >;
         };
 
